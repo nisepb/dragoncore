@@ -23,8 +23,7 @@ const DEFAULT_PROPERTIES = {
         return traits;
     }
 }
-// sets default propertioes for objects (dragon in this case)
-// Does it set it for all objects?
+// sets default properties for objects 
 
 class Dragon {
     constructor ({birthdate, nickname, traits} = {}) {
