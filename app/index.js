@@ -1,5 +1,5 @@
 const express = require('express');
-const GenerationEngine = require ('./engine');
+const GenerationEngine = require ('./generation/engine');
 
 const app = express();
 const engine = new GenerationEngine();
