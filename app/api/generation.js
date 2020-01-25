@@ -1,4 +1,4 @@
-const { Rpouter } = require('express');
+const { Router } = require('express');
 
 const router = new router();
 
