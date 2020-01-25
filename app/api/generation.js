@@ -1,9 +1,9 @@
 const { Router } = require('express');
 
-const router = new router();
+const router = new Router();
 
 router.get('/', (req, res) => {
-    res.json({ generation: req.app.locals.engine.generation});
+    res.json({generation: req.app.locals.engine.generation});
 })
 
 module.exports = router;
